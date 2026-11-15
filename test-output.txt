@@ -1,0 +1,22 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< edu.utd.se3354.team10:road-hazard-reporting >-------------
+[INFO] Building Road Hazard Reporting System - HazardService unit 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.631 s
+[INFO] Finished at: 2026-11-15T09:07:14-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-resources-plugin:3.3.1 or one of its dependencies could not be resolved:
+[ERROR] 	The following artifacts could not be resolved: org.apache.maven.plugins:maven-resources-plugin:pom:3.3.1 (absent): Could not transfer artifact org.apache.maven.plugins:maven-resources-plugin:pom:3.3.1 from/to central (https://repo.maven.apache.org/maven2): status code: 403, reason phrase: Forbidden (403)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
